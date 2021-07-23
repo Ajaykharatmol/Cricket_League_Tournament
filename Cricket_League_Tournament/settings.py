@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'q28#g@hq)2br9c%+10v3x#!qmkqfbp^*sdb)u_+nvxi162x+gf'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1:8000','cricketleaguetournament.herokuapp.com']
+ALLOWED_HOSTS = ['cricketleaguetournament.herokuapp.com']
 
 
 # Application definition
